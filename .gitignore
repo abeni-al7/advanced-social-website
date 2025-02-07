@@ -8,3 +8,6 @@ __pycache__/
 *.db
 media/
 staticfiles/
+db.sqlite3
+cert.crt
+cert.key
