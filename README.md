@@ -44,7 +44,7 @@ This project is an advanced social website built with Django, providing features
   - Google OAuth2 integration ([`social_django`](bookmarks/settings.py))
 
 - **Activity Tracking:**
-  - Tracking user actions (e.g., creating an account, bookmarking an image, liking an image, following a user) ([`actions.models.Action`](actions/models.py), [`actions.utils.create_action`](actions/utils.py))
+  - Tracking user actions (e.g., creating an account, bookmarking an image, liking an image, following a user) to later show those to their friends.([`actions.models.Action`](actions/models.py), [`actions.utils.create_action`](actions/utils.py))
 
 ## Requirements
 
